@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Test Tour",
+  "steps": [
+    {
+      "file": "hello.py",
+      "description": "It is a common convention to import numpy under the shorthand alias np:",
+      "line": 1,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 2,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "hello.py",
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 15
+        }
+      },
+      "description": "We create a NumPy vector (called an ndarray) from a Python list (or tuple):",
+      "title": "NumPy Vectors"
+    },
+    {
+      "file": "hello.py",
+      "selection": {
+        "start": {
+          "line": 11,
+          "character": 1
+        },
+        "end": {
+          "line": 12,
+          "character": 9
+        }
+      },
+      "description": "A common syntax mistake is not passing in the data as a list or tuple:",
+      "title": "Vector Mistake"
+    }
+  ]
+}
